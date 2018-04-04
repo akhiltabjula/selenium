@@ -20,7 +20,7 @@ public class TestNG_TestSuite {
 	@BeforeClass
 	public void beforeClass() {
 		driver = new FirefoxDriver();
-		baseUrl = "https://www.expedia.com/";
+		driver.get("https://www.expedia.com/");
 
 		// Maximize the browser's window
 		driver.manage().window().maximize();
